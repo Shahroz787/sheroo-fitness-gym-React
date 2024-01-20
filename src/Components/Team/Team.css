@@ -1,0 +1,56 @@
+/*--------team section starts from here----------*/
+.teams {
+  margin-bottom: 200px;
+  margin-top: -200px;
+}
+
+.teams .col-sm-4 {
+  overflow: hidden;
+  position: relative;
+}
+
+.teams img {
+  width: 50rem;
+  height: 560px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.teams img:hover {
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.teams .content {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--white) !important;
+  width: 95%;
+  background: var(--black);
+  text-align: center;
+  padding: 20px;
+  opacity: 0;
+}
+
+.teams .col-sm-4:hover .content {
+  opacity: 1;
+}
+
+.teams .content h6 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+/*--------team section ends here----------*/
+
+/*__________responsive area starts from here____________*/
+
+@media screen and (max-width: 600px) {
+  .custom {
+    margin-bottom: 4rem !important;
+  }
+}

@@ -1,0 +1,48 @@
+/*-------Details Section starts from here*--------*/
+
+.details .col-sm-5 h6 {
+  font-size: 70px;
+  font-weight: 600;
+  margin: 20px auto;
+}
+
+.details .col-sm-5 p {
+  margin: 35px auto;
+}
+
+.details .offset-sm-2 {
+  margin: -26rem 0rem 0rem 1rem;
+}
+
+.details .offset-sm-2 img {
+  width: 55vw;
+  height: 190vh;
+}
+
+/*-------Details Section ends here--------*/
+
+/*__________responsive area starts from here____________*/
+
+@media screen and (max-width: 600px) {
+  .details .col-sm-5 h6 {
+    font-size: 50px !important;
+  }
+  .details .offset-sm-2 img {
+    width: 130vw !important;
+    height: 120vh !important;
+    margin-top: 12rem;
+    margin-left: -4rem;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .details .col-sm-5 h6 {
+    font-size: 50px !important;
+  }
+  .details .offset-sm-2 img {
+    width: 100vw !important;
+    height: 110vh !important;
+    margin-top: 2rem;
+    margin-left: -12rem;
+  }
+}

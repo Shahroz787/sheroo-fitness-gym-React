@@ -1,0 +1,37 @@
+/*-----header-------*/
+.header {
+  position: relative;
+}
+
+.header img {
+  height: 90vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.header .content {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: var(--white) !important;
+  background: var(--black);
+  padding: 20px;
+}
+
+.header .content h6 {
+  font-size: 50px;
+}
+
+.header .btn {
+  margin-top: 30px;
+}
+
+/*__________responsive area starts from here____________*/
+
+@media screen and (max-width: 768px) {
+  .header .content h6 {
+    font-size: 30px !important;
+  }
+}

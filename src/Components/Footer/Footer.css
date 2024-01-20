@@ -1,0 +1,44 @@
+
+/*-------Footer section starts from here---------*/
+footer {
+    background-color: var(--black);
+    padding: 20px;
+  }
+  
+  footer .container {
+    color: var(--white) !important;
+    border-bottom: 2px solid var(--white);
+  }
+  
+  footer .container h6 {
+    font-weight: 600;
+    font-size: 40px;
+    margin: 20px auto;
+  }
+  
+  footer .container i {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  footer .container a {
+    color: var(--white) !important;
+    text-decoration: none !important;
+    padding-left: 20px;
+  }
+  
+  footer .container i a:hover {
+    color: var(--main) !important;
+    padding-left: 25px;
+    font-weight: 500;
+  }
+  
+  footer .customFooter p {
+    color: var(--white);
+    text-align: center;
+    font-size: 16px;
+    padding-top: 1rem;
+  }
+  
+  /*---------Footer section ends here-------------*/
+  

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Besley:ital,wght@0,400;0,500;1,400;1,500&display=swap");
+
+/*--------Global Variables------*/
+
+:root {
+  --main: #f01027;
+  --black: #000;
+  --white: #fff;
+  --font_family: "Besley", serif;
+}
+
+.btn {
+  width: 300px;
+  border: 2px solid var(--main);
+  color: var(--main) !important;
+  border-radius: 15px;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+}
+
+.btn:hover {
+  color: var(--white) !important;
+}
+
+.btn::after {
+  content: "";
+  background-color: var(--main);
+  display: block;
+  position: absolute;
+  height: 100%;
+  z-index: -1;
+  width: 0px;
+  top: 0;
+  border-radius: 15px;
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.btn:hover::after {
+  width: 100%;
+}
+
+* {
+  transition: 0.4s ease-in-out;
+  font-family: var(--font_family);
+}
+
+*::selection {
+  background: var(--main);
+  color: var(--white) !important;
+}
+
+html::-webkit-scrollbar {
+  width: 10px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--main);
+}
+
+html::-webkit-scrollbar-track {
+  background: var(--black);
+}
+
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.flexSB {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/*__________responsive area starts from here____________*/
+
+@media screen and (max-width: 600px) {
+  .custom, .teams, .pricing, .contacts {
+      margin-bottom: 5rem !important;
+    }  
+}
+
+
+@media screen and (max-width: 1080px) {
+  .custom, .teams, .pricing, .contacts {
+      margin-bottom: 5rem !important;
+    }  
+}

@@ -1,0 +1,135 @@
+/*------Navbar---------*/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 2px solid var(--white);
+}
+
+.scroll {
+  background: rgba(0, 0, 0, 0.606);
+}
+
+.navbar-brand {
+  font-size: 3em;
+  color: var(--white) !important;
+  padding: 0px 60px;
+}
+
+.navbar-brand span {
+  font-size: 1.6em;
+  color: var(--main) !important;
+  font-weight: 600;
+}
+
+.navbar-nav {
+  padding: 0px 60px;
+  margin-top: 40px;
+}
+
+.nav-link {
+  color: var(--white) !important;
+  margin-left: 8px;
+}
+
+.nav-link:hover {
+  color: var(--main) !important;
+}
+
+.nav-link::after {
+  content: "";
+  background: var(--main);
+  height: 3px;
+  width: 0px;
+  display: block;
+  position: absolute;
+  transition: 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+  width: 50px;
+}
+
+.toggle {
+  display: none;
+}
+
+/*__________responsive area starts from here____________*/
+
+@media screen and (max-width: 600px) {
+  .toggle {
+    display: block;
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    left: 19.5rem !important;
+    top: 3rem;
+  }
+
+  nav .navbar-nav {
+    display: none;
+  }
+
+  nav .mobile-nav .nav-item {
+    list-style-type: none;
+  }
+
+  nav .navbar-brand {
+    font-size: 2rem;
+    margin-left: -3rem;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    width: 100%;
+    background-color: var(--black);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .toggle {
+    display: block;
+    background-color: transparent;
+    border: transparent;
+    color: #fff;
+    font-size: 28px;
+    position: absolute;
+    left: 42.5rem;
+    top: 3rem;
+  }
+
+  nav .navbar-nav {
+    display: none;
+  }
+
+  nav .mobile-nav .nav-item {
+    list-style-type: none;
+  }
+
+  nav .navbar-brand {
+    font-size: 2rem;
+    margin-left: -3rem;
+  }
+
+  .mobile-nav {
+    position: absolute;
+    top: 13vh;
+    left: 0;
+    width: 100%;
+    background-color: var(--black);
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  nav .navbar-nav {
+    margin-left: -38rem !important;
+  }
+  nav .navbar-brand {
+    font-size: 2rem;
+    margin-left: -3rem;
+  }
+}

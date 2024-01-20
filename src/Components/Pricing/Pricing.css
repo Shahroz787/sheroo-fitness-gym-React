@@ -1,0 +1,45 @@
+/*----------Pricing section starts from here--------*/
+.pricing {
+    margin-bottom: 200px;
+  }
+  
+  .pricing .box {
+    box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.4),
+      inset 10px 10px 10px -10px rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .pricing .box:hover,
+  .pricing .box.active {
+    background: var(--black);
+    color: var(--white);
+  }
+  
+  .pricing .row {
+    margin: 100px auto;
+  }
+  
+  .pricing .mid {
+    margin-top: 100px;
+  }
+  
+  .pricing .box h6 {
+    font-size: 40px;
+    margin: 10px auto;
+    font-weight: 600;
+  }
+  
+  .pricing .box h5 {
+    font-size: 100px;
+    font-weight: 600;
+    margin: 20px auto;
+  }
+  
+  .pricing .box p {
+    font-size: 12px;
+    margin: 15px auto;
+  }
+  
+  /*----------Pricing ends here-----------*/
+  
