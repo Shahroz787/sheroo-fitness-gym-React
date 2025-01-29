@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <section className="contacts padding">
-        <div className="container shadow flexSB">
+        <div className="container shadow flexSB" id="contactscoll">
           <div className="left contact-row row">
             <iframe src={map} title="contactFrame"></iframe>
           </div>

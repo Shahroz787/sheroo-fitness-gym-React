@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Navbar.css"
+import "./Navbar.css";
 
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
@@ -39,23 +39,24 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a href="0" className="nav-link">
+              <a href="#aboutscroll" className="nav-link">
                 About
               </a>
             </li>
             <li className="nav-item">
-              <a href="3" className="nav-link">
+              <a href="#servicescroll" className="nav-link">
                 Services
               </a>
             </li>
+
             <li className="nav-item">
-              <a href="9" className="nav-link">
-                Contact
+              <a href="#pricingscroll" className="nav-link">
+                Pricing
               </a>
             </li>
             <li className="nav-item">
-              <a href="4" className="nav-link">
-                Gym
+              <a href="#contactscoll" className="nav-link">
+                Contact
               </a>
             </li>
           </ul>

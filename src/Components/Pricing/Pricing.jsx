@@ -5,7 +5,7 @@ import "./Pricing.css"
 const Pricing = () => {
   return (
     <>
-      <div className="pricing container">
+      <div className="pricing container" id="pricingscroll">
         <div className="row">
           <div className="col-sm-4 col-md-12 col-lg-4">
             <div className="box">

@@ -7,7 +7,7 @@ import "./Details.css"
 const Details = () => {
   return (
     <>
-      <div className="container details">
+      <div className="container details" id="aboutscroll">
         <div className="row">
           <div className="col-sm-5">
             <h6>There is No Tomorrow</h6>

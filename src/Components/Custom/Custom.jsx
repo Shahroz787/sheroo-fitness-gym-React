@@ -9,8 +9,8 @@ import "./Custom.css"
 const Custom = () => {
   return (
       <>
-          <section>
-              <div className="custom container">
+          <section >
+              <div className="custom container" >
                   <div className="row">
                       <div className="col-sm-4">
                           <div className="box">
